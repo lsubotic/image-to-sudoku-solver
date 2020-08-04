@@ -21,10 +21,11 @@ First, we need to take image that has the Sudoku puzzle on it - like this one: <
 
 <p>After that, <i>split_squares.py</i> comes to play, with OpenCV. </p>
 In order for it to be recognized, the Sudoku puzzle must be in the foreground, however it's not necessary for it to be the only thing on the picture.
-When the Sudoku grid is recognized, using quite some OpenCV processing, it will be split into 81 images of 28x28 shape and saved to **square_images** folder like this:
+When the Sudoku grid is recognized, with quite some OpenCV processing, it will be split into 81 images of 28x28 shape and saved to **square_images** folder. <br>
+Here's how they look like:
 
 ![](imgs/3.jpg) ![](imgs/4.jpg) ![](imgs/7.jpg) ![](imgs/8.jpg) <br>
-In order to visualize the processing more easily, I decided to save them, although they could be worked on directly from the code, without the need of saving them.
+In order to visualize the process a bit better, I decided to save them, although they could be worked on directly from the code without the need to be saved.
 
 ### Recognizing numbers
 The job of *recoqnize_numbers.py* module. <br>
