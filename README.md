@@ -1,5 +1,5 @@
 # Image and number recognition Sudoku puzzle solving
-Solving sudokus started to become a bit boring, so i decided to have some fun and do it with a different approach, solving it by taking a picture of the Sudoku puzzle from newspapers and solving it with help of OpenCV, ConvNets, Python and the backtracking algorithm.
+Solving sudokus started to become a bit boring, so i decided to have some fun and do it with a different approach: Taking a picture of the Sudoku puzzle from newspapers and solving it with help of OpenCV, ConvNets, Python and the backtracking algorithm.
 
 ## How to run:
 First, to make sure you have all of required modules installed, get them from supplied *requirements.txt* using the following command:
