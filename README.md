@@ -34,4 +34,6 @@ Each image needs to be processed with OpenCV to determine if its empty or not. A
 
 ### Solution
 The sudoku puzzle, now represented as an array, is solved using the Backtracking algorithm and printed like this:
+
 ![Sudoku grid is recognized.](imgs/rec.jpg) ![Sudoku grid is solved.](imgs/sol.jpg) 
+<br>(empty squares are represented as zeros)
