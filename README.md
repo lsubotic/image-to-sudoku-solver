@@ -7,7 +7,7 @@ First, to make sure you have all of required modules installed, get them from su
 $ pip install -r requirements.txt
 ```
 After that, simply run with ``` $ python solve_sudoku.py``` and watch it solve Sudoku puzzle that's on the image '**sudoku.jpg**'. <br>
-An sample image is already provided, so to try it out with a different picture, replace the old picture with a new one thats has the same name - '*sudoku.jpg*'.
+An sample image is already provided, so to try it out with a different picture, replace the old picture with a new one thats has the same name - '*sudoku.jpg*', and use my pretrained model to try and recognize the numbers.
 
 ## How it works - short explanation 
 ### Before starting
